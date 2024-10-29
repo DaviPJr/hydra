@@ -1,0 +1,55 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 84px;
+    margin-right: 84px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+ul {
+    display: flex;
+    gap: 41px;
+}
+
+ul li {
+    color: white;
+    font-size: 12px;
+    list-style: none;
+}
+
+.contato {
+    display: flex;
+    gap: 38px;
+}
+
+.btn1 {
+    width: 154px;
+    height: 48px;
+    border-radius: 40px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn2 {
+    width: 154px;
+    height: 48px;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #343045;
+    background: linear-gradient(90deg, #8176AF, #C0B7E8);
+    cursor: pointer;
+}
+

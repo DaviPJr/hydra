@@ -1,0 +1,38 @@
+.information {
+    display: flex;
+    margin-left: 84px;
+    margin-right: 84px;
+    margin-top: 148px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro h1 {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+.information-p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.information-p h2 {
+    margin: 0;
+    font-size: 36px;
+    color: white;
+    font-weight: 200;
+}
+
+.information-text {
+    width: 750px;
+}
+
+.information-text p {
+    text-align: left;
+    line-height: 2.5;
+}

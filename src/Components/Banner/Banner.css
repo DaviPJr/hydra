@@ -1,0 +1,49 @@
+.banner {
+    margin-top: 133px;
+    margin-left: 84px;
+    margin-right: 84px;
+    border-radius: 90px;
+    height: 167px;
+    background: linear-gradient(90deg, #3A3456, #211E2E); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 29px;
+}
+
+.location-img {
+    margin-left: 20px;
+}
+
+.info-p{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-p:last-child {
+    margin-right: 40px;
+}
+
+.info-p h2 {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin: 0; /* Remove o margin padrão */
+}
+
+.info-p p {
+    font-size: 14px;
+    color: white;
+
+}
+
+.banner hr {
+    height:116.5px ;
+}
