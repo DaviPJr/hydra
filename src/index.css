@@ -5,3 +5,24 @@ body {
   background: linear-gradient(90deg, #211E2E, #3A3456, #211E2E);
   font-family: "Montserrat", sans-serif;
 }
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 102px;
+}
+
+.circles-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 160px;
+  margin-top: 102px;
+  background-image: url('./Assets/Imagens/vector10.png');
+  background-size: contain; 
+  background-position: center top; 
+  background-repeat: no-repeat; 
+  min-height: 350px; 
+}

@@ -2,13 +2,13 @@ import React from 'react'
 import './Info.css'
 import arrow1 from '../../Assets/Imagens/arrow1.png'
 
-export const Info = () => {
+export const Info = (props) => {
   return (
     <div className='information'>
         <div className="intro">
-          <h1>INTRODUCTION</h1>
+          <h1>{props.title}</h1>
           <div className="information-p">
-            <h2>TO HYDRA VR</h2>
+            <h2>{props.otherTitle}</h2>
             <img src={arrow1} alt="" />
           </div>
         </div>

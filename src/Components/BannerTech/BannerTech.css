@@ -1,0 +1,67 @@
+.parent-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+}
+
+.vector9 {
+    position: absolute; 
+    top: -100%; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0; 
+    width: 100%; 
+    height: auto; 
+}
+
+.banner-tech {
+    margin-top: 149px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../Assets/Imagens/person.png');
+    width: 80%;
+    height: 303px;
+    border-radius: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-tech h1 {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.banner-tech h2 {
+    font-size: 36px;
+    font-weight: lighter;
+    color: white;
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 11px;
+}
+
+.button-chevron {
+    width: 90px;
+    height: 90px;
+    background-color: #C0B7E8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; 
+    bottom: -15px;
+    box-shadow: 0 4px 10px 19px rgba(0, 0, 0, 0.3);
+}
+
+.button-chevron img {
+    width: 70%; 
+}
+
+
+
