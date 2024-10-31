@@ -7,5 +7,18 @@
     margin-bottom: -100px;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
 
+    .imagens-img {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+        column-gap: 10px;
+        width: 100%;
+        justify-content: center;
+    }
 
+    .imagens-img img {
+        margin: 0 auto; 
+    }
+}

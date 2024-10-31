@@ -18,7 +18,7 @@ export const Footer = () => {
             <img src={vector11} alt="" className='vector11'/>
             <img src={vector12} alt="" className='vector12'/>
             <div className="footer-logo">
-                <img src={footerFrame} alt="" />
+                <img src={footerFrame} alt="" className='footer-logo-img' />
             </div>
             <hr />
             <div className="footer-about">

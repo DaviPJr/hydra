@@ -36,3 +36,47 @@
     text-align: left;
     line-height: 2.5;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .information {
+        gap: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 100px;
+        width: 90%;
+    }
+
+    .information-p {
+        display: flex;   
+    }
+
+    .information-p img {
+        width: 40%;
+    }
+
+    .information-text {
+        margin: 0 auto;
+    }
+
+    .information-text p {
+        line-height: 1.9;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .intro h1 {
+        font-size: 20px;
+    }
+
+    .information-p h2 {
+        font-size: 15px;
+    }
+
+    .information-text {
+        width: 400px;
+    }
+
+}

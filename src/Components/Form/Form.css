@@ -125,3 +125,23 @@
     cursor: pointer;
     margin-bottom: 84px;
 }
+
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+
+    .form-input-text textarea {
+        width: 458px;
+        height: 210px;
+    }
+
+    .form-input-text input {
+        width: 458px;
+        height: 72px;
+    }
+
+    .form-input input {
+        width: 224px; 
+        height: 72px;
+    }
+
+}

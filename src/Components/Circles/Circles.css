@@ -58,4 +58,38 @@
 }
 
 
+@media (min-width: 768px) and (max-width: 1024px) { 
+
+    .circles-container {
+        width: 100%;
+        gap: 5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 80px;
+        row-gap: 60px;
+        justify-content: center;
+        background-image: none;
+    }
+
+    .circles-number {
+        margin: 0 auto; 
+    }
+
+    .circles-number h1 {
+        font-size: 34px;
+        color: #343045;
+        font-weight: bold;
+    }
+
+    .circles-p-text p {
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        margin: 0;;
+    }
+    
+
+}
+
+
 

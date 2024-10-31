@@ -106,3 +106,30 @@ p {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6); 
     overflow: hidden; 
   }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    .hero-image{
+      width: 100%;
+    }
+
+    .mask-container {
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 auto;
+      position: relative;
+      width: 80%;
+      gap: 110px;
+  }
+  
+  .hero-btn img {
+    display: none;
+  }
+
+  }

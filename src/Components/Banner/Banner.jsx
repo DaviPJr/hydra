@@ -8,7 +8,7 @@ export const Banner = () => {
   return (
     <div className='banner'>
         <div className="info">
-            <img src={location} alt="" className='location-img'/>
+            <img src={location} alt="" className='location-img image'/>
             <div className="info-p">
                 <h2>Pay Us a Visit</h2>
                 <p>Union St, Seattle, WA 98101, United States</p>
@@ -17,7 +17,7 @@ export const Banner = () => {
         </div>
        <hr />
         <div className="info">
-            <img src={phone} alt="" />
+            <img src={phone} alt="" className='image' />
             <div className="info-p">
                 <h2>Give Us a Call</h2>
                 <p>(110) 1111-1010</p>
@@ -26,7 +26,7 @@ export const Banner = () => {
         </div>
         <hr />
         <div className="info">
-            <img src={mail} alt="" />
+            <img src={mail} alt="" className='image' />
             <div className="info-p">
                 <h2>Send Us a Message</h2>
                 <p>Contact@HydraVTech.com</p>

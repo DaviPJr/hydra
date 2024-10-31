@@ -51,3 +51,21 @@
     margin-top: 35px;
     margin-bottom: 40px;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        row-gap: 50px;
+        justify-content: center; 
+      }
+
+      .card {
+        width: 80%;
+        margin: 0 auto; 
+        
+    }
+
+}

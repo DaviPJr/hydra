@@ -82,3 +82,57 @@
     cursor: pointer;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .footer-container {
+        width: 90%; 
+    }
+
+    .footer {
+        width: 80%;
+        gap: 20px;
+    }
+
+    .footer-logo {
+        width: 20%;
+    }
+
+    .footer-logo-img {
+        height: 50%;
+    }
+
+    .footer h3 {
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+        margin: 0;
+    }
+
+    .footer hr {
+        height: 196px; /* Ajuste conforme necessário */
+        width: 5px; /* Ajuste para caber melhor em telas menores */
+    }
+
+    .footer-socials {
+        width: 30%;
+    }   
+
+    .footer-socials button {
+        width: 114px;
+        height: 48px;
+        font-size: 10px;
+    }
+
+    .footer-socials-icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-socials-icons img {
+        width: 20px;
+        height: 20px;
+    }
+
+}

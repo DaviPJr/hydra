@@ -3,10 +3,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%; /* Garante que o contêiner ocupe a largura total */
+    text-align: center; /* Centraliza o conteúdo de texto */
 }
 
 .footer-rights hr {
-    width: 1269px;
+    width: 90%; /* Ajuste flexível para caber em telas menores */
+    max-width: 1269px; 
     margin-bottom: 50px;
     height: 2px; 
     border: none; 
@@ -20,4 +23,18 @@
     font-weight: 600;
     letter-spacing: 3px;
     margin-bottom: 60px;
+}
+
+/* Media querie para tablet */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .footer-rights hr {
+        width: 90%; /* Ajuste para uma largura relativa à viewport */
+    }
+
+    .footer-rights p {
+        text-align: center; /* Centraliza o texto no tablet */
+        font-size: 12px;
+    }
 }

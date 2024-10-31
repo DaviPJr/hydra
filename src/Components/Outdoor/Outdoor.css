@@ -80,3 +80,33 @@
     opacity: 0.5; 
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .outdoor {
+        gap: 100px;
+    }
+
+    .outdoor-img img {
+        width: 90%;
+    }
+
+    .outdoor-info {
+        width: 100%;
+    }
+
+    .outdoor-info h2 {
+        font-size: 26px;
+    }
+    
+    .outdoor-info h3 {
+        font-size: 26px;
+    }
+
+    .outdoor-info p {
+        text-align: left;
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 1.8;
+        margin-bottom: 28px;
+    }
+
+}

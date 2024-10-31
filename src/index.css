@@ -2,8 +2,15 @@
 
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   background: linear-gradient(90deg, #211E2E, #3A3456, #211E2E);
   font-family: "Montserrat", sans-serif;
+}
+
+body, html {
+  width: 100%;
+  overflow-x: hidden; /* Evita rolagem horizontal */
 }
 
 .card-container {
