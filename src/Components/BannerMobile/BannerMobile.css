@@ -1,0 +1,46 @@
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 160px;
+    margin-top: 100px;
+    background: radial-gradient(circle, #3A3456 0%, #211E2E) 100%;
+    border-radius: 90px;
+}
+
+.custom-prev-button, .custom-next-button {
+    display: none;
+}
+
+.swiper-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: white;
+    width: 40px; 
+    height: 40px; 
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 30px; 
+}
+.swiper-pagination {
+    display: none;
+}
+
+
+

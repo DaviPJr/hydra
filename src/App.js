@@ -16,6 +16,7 @@ import img3 from './Assets/Imagens/img3.png'
 import img4 from './Assets/Imagens/img4.png'
 import Footer from './Components/Footer/Footer.jsx';
 import FooterInfo from './Components/FooterInfo/FooterInfo.jsx';
+import ResponsiveBanner from './Components/ResponsiveBanner/ResponsiveBanner.jsx';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
     <div className="App">
       <Nav />
       <Hero />
-      <Banner />
+      <ResponsiveBanner />
       <Info title="INTRODUCTION" otherTitle="TO HYDRA VR"/>
       <Outdoor />
       <Info title="WHY BUILD" otherTitle="WITH HYDRA?"/>

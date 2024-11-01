@@ -13,6 +13,7 @@
     flex-direction: column;
     width: 456px;
     gap: 36px;
+    z-index: 1;
 }
 
 h1 {
@@ -107,7 +108,11 @@ p {
     overflow: hidden; 
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    z-index: 1;
+  }
+
+  @media (min-width: 768px) and (max-width: 1280px) {
 
     .hero-image{
       width: 100%;
@@ -133,3 +138,40 @@ p {
   }
 
   }
+
+
+  @media (max-width: 768px) {
+
+    .hero-p p {
+      display: none;
+
+    }
+
+    .hero-btn img {
+      display: none;
+    }
+
+    .hero-btn button {
+      width: 350px;
+      height: 62px;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-p {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-p h1 {
+      text-align: center;
+    }
+  }
+  

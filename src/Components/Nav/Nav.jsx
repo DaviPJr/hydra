@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Drawer, IconButton, List, ListItem, Button, Box  } from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
 import frame from '../../Assets/Imagens/Frame.png';
 import frame2 from '../../Assets/Imagens/Frame2.png';
+import hamburguer from '../../Assets/Imagens/hamburguer.png';
 import './Nav.css';
 
 
@@ -31,11 +31,12 @@ export const Nav = () => {
             sx={{ display: { sm: 'block', md: 'none' }, 
                 color: '#8176AF', 
                 position: 'absolute', 
-                top: '70px', 
-                right: '50px'   
+                top: '89px', 
+                right: '50px',
+
             }} 
         >
-        <MenuIcon sx={{ fontSize: '50px' }} />
+        <img src={hamburguer} alt="" />
       </IconButton>
       <div className="menu">
                 <ul>

@@ -3,12 +3,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%; /* Garante que o contêiner ocupe a largura total */
-    text-align: center; /* Centraliza o conteúdo de texto */
+    width: 100%;
+    text-align: center; 
 }
 
 .footer-rights hr {
-    width: 90%; /* Ajuste flexível para caber em telas menores */
+    width: 90%; 
     max-width: 1269px; 
     margin-bottom: 50px;
     height: 2px; 
@@ -27,14 +27,14 @@
 
 /* Media querie para tablet */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1280px) {
 
     .footer-rights hr {
-        width: 90%; /* Ajuste para uma largura relativa à viewport */
+        width: 90%; 
     }
 
     .footer-rights p {
-        text-align: center; /* Centraliza o texto no tablet */
+        text-align: center; 
         font-size: 12px;
     }
 }

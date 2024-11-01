@@ -80,7 +80,7 @@
     opacity: 0.5; 
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1280px) {
     .outdoor {
         gap: 100px;
     }
