@@ -1,3 +1,11 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 102px;
+  }  
+
 .card {
     display: flex;
     flex-direction: column;
@@ -12,8 +20,8 @@
 .card img {
     margin-top: 37px;
     margin-bottom: 21px;
-    border-radius: 50%; /* Define a imagem como circular */
-    box-shadow: 0 4px 8px 10px rgba(0, 0, 0, 0.5); /* Efeito de sombra arredondado */
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px 10px rgba(0, 0, 0, 0.5); 
 }
 
 .card h2 {

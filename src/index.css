@@ -10,15 +10,7 @@ body {
 
 body, html {
   width: 100%;
-  overflow-x: hidden; /* Evita rolagem horizontal */
-}
-
-.card-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin-top: 102px;
+  overflow-x: hidden;
 }
 
 .circles-container {

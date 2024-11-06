@@ -1,0 +1,56 @@
+.card-mobile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.card-mobile {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    height: 611px;
+    background: radial-gradient(circle at center, #433D60 0%, #211E2E 50%);
+}
+
+.swiper-slide-card {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.swiper-slide-card img {
+    width: 55%;
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.swiper-slide-card h2 {
+    margin-top: 40px;
+    color: white;
+}
+
+.swiper-slide-card hr {
+    width: 40%;
+    color: #C0B7E8;
+    opacity: 0.5;
+}
+
+.swiper-slide-card button {
+    border-radius: 40px;
+    width: 80%;
+    height: 48px;
+    color: #343045;
+    background: linear-gradient(90deg, #8176AF, #C0B7E8);
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+    margin-top: 35px;
+}
