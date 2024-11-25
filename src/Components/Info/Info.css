@@ -104,4 +104,8 @@
     justify-content: center;
     gap: 23px;
   }
+
+  .intro h1 {
+    text-align: center;
+  }
 }

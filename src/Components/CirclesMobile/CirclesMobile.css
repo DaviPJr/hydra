@@ -1,0 +1,40 @@
+.circlesMobile {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slider-circlesMobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.circles-numberMobile {
+  width: 159px;
+  height: 159px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #c0b7e8, #8176af);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px 18px rgba(0, 0, 0, 0.4);
+  margin-bottom: 30px;
+}
+
+.circles-numberMobile h1 {
+  font-size: 64px;
+  color: #343045;
+  font-weight: bold;
+}
+
+.circles-p-textMobile p {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
