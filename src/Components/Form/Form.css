@@ -65,6 +65,7 @@
   background-color: transparent;
   border: 2px solid white;
   padding-left: 40px;
+  color: white;
 }
 
 .form-input input::placeholder {
@@ -91,6 +92,7 @@
   background-color: transparent;
   border: 2px solid white;
   padding-left: 40px;
+  color: white;
 }
 
 .form-input-text input::placeholder {
@@ -110,6 +112,7 @@
   padding-left: 40px;
   margin-top: 33px;
   padding-top: 27px;
+  color: white;
 }
 
 .form-input-text textarea::placeholder {
@@ -130,6 +133,11 @@
   color: #343045;
   cursor: pointer;
   margin-bottom: 84px;
+}
+
+span {
+  color: red;
+  font-size: 0.9em;
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {

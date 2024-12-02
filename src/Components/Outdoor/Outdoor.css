@@ -1,139 +1,145 @@
 .outdoor {
-    display: flex;
-    margin-top: 97px;
-    margin-left: 84px;
-    margin-right: 84px;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
+  display: flex;
+  margin-top: 97px;
+  margin-left: 84px;
+  margin-right: 84px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
 }
 
 .outdoor-img {
-    position: relative;
-    z-index: 2; 
+  position: relative;
+  z-index: 2;
 }
 
 .outdoor-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 49%;
-    position: relative;
-    z-index: 2; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 49%;
+  position: relative;
+  z-index: 2;
 }
 
 .outdoor-info h2 {
-    font-size: 36px;
-    color: white;
-    font-weight: bold;
-    margin: 0;
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  margin: 0;
 }
 
 .outdoor-info h3 {
-    font-size: 36px;
-    color: white;
-    font-weight: lighter;
-    margin: 0;
-    margin-bottom: 42px;
+  font-size: 36px;
+  color: white;
+  font-weight: lighter;
+  margin: 0;
+  margin-bottom: 42px;
 }
 
 .outdoor-info p {
-    text-align: left;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 1.8;
-    margin-bottom: 28px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.8;
+  margin-bottom: 28px;
 }
 
 .outdoor-info button {
-    border-radius: 40px;
-    width: 214px;
-    height: 48px;
-    color: #343045;
-    background: linear-gradient(90deg, #8176AF, #C0B7E8);
-    font-size: 12px;
-    font-weight: 800;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    transition: box-shadow 0.3s ease;
+  border-radius: 40px;
+  width: 214px;
+  height: 48px;
+  color: #343045;
+  background: linear-gradient(90deg, #8176af, #c0b7e8);
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
 }
 
 .vector7 {
-    top: 40%; 
-    left: 0;
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%) rotate(360deg);
-    z-index: 1;
-    opacity: 0.5; 
+  top: 40%;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(360deg);
+  z-index: 1;
+  opacity: 0.5;
 }
 
 .vector8 {
-    top: 60%; 
-    left: 10%;
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%) rotate(190deg);;
-    z-index: 1;
-    opacity: 0.5; 
+  top: 60%;
+  left: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(190deg);
+  z-index: 1;
+  opacity: 0.5;
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
-    .outdoor {
-        gap: 100px;
-    }
+  .outdoor {
+    gap: 100px;
+  }
 
-    .outdoor-img img {
-        width: 90%;
-    }
+  .outdoor-img img {
+    width: 90%;
+  }
 
-    .outdoor-info {
-        width: 100%;
-    }
+  .outdoor-info {
+    width: 100%;
+  }
 
-    .outdoor-info h2 {
-        font-size: 26px;
-    }
-    
-    .outdoor-info h3 {
-        font-size: 26px;
-    }
+  .outdoor-info h2 {
+    font-size: 26px;
+  }
 
-    .outdoor-info p {
-        text-align: left;
-        font-size: 12px;
-        font-weight: normal;
-        line-height: 1.8;
-        margin-bottom: 28px;
-    }
+  .outdoor-info h3 {
+    font-size: 26px;
+  }
 
+  .outdoor-info p {
+    text-align: left;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.8;
+    margin-bottom: 28px;
+  }
 }
 
 @media (max-width: 768px) {
+  .outdoor {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .outdoor {
-        display: flex;
-        flex-direction: column;
-    }
+  .outdoor-img img {
+    width: 95%;
+  }
 
-    .outdoor-img img {
-        width: 95%;
-    }
+  .outdoor-info {
+    width: 120%;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+  }
 
-    .outdoor-info {
-        margin-top: 40px;
-        width: 100%;
-    }
+  .outdoor-info h2,
+  h3 {
+    display: none;
+  }
 
-    .outdoor-info h2, h3 {
-        display: none;
-    }
+  .outdoor-info p {
+    text-align: left;
+  }
 
-    .outdoor-info button {
-        margin-top: 40px;
-        width: 100%;
-        height: 66px;
-    }
+  .outdoor-info button {
+    margin-top: 40px;
+    width: 100%;
+    height: 66px;
+    font-size: 18px;
+  }
 }
