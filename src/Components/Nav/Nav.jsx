@@ -3,6 +3,7 @@ import { Drawer, IconButton, List, ListItem, Button, Box } from "@mui/material";
 import frame from "../../Assets/Imagens/Frame.png";
 import frame2 from "../../Assets/Imagens/Frame2.png";
 import hamburguer from "../../Assets/Imagens/hamburguer.png";
+import { Link } from "react-scroll";
 import "./Nav.css";
 
 export const Nav = () => {
@@ -42,10 +43,26 @@ export const Nav = () => {
       </IconButton>
       <div className="menu">
         <ul>
-          <li>ABOUT</li>
-          <li>SERVICES</li>
-          <li>TECHNOLOGIES</li>
-          <li>HOW TO</li>
+          <li>
+            <Link to="outdoor" smooth={true} duration={500}>
+              INTRODUCTION
+            </Link>
+          </li>
+          <li>
+            <Link to="card" smooth={true} duration={500}>
+              SERVICES
+            </Link>
+          </li>
+          <li>
+            <Link to="imagens" smooth={true} duration={500}>
+              TECHNOLOGIES
+            </Link>
+          </li>
+          <li>
+            <Link to="form" smooth={true} duration={500}>
+              CONTACT
+            </Link>
+          </li>
         </ul>
         <div className="contato">
           <Button
@@ -104,10 +121,26 @@ export const Nav = () => {
           }}
         >
           <List sx={{ display: "flex", flexDirection: "column", gap: "15px" }}>
-            <ListItem button>ABOUT</ListItem>
-            <ListItem button>SERVICES</ListItem>
-            <ListItem button>TECHNOLOGIES</ListItem>
-            <ListItem button>HOW TO</ListItem>
+            <ListItem>
+              <Link to="outdoor" smooth={true} duration={500}>
+                INTRODUCTION
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link to="card-mobile" smooth={true} duration={500}>
+                SERVICES
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link to="imagensMobile" smooth={true} duration={500}>
+                TECHNOLOGIES
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link to="form" smooth={true} duration={500}>
+                CONTACT
+              </Link>
+            </ListItem>
           </List>
           <Box
             sx={{

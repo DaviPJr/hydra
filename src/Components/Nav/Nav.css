@@ -1,113 +1,109 @@
 .nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 50px;
-    margin-left: 84px;
-    margin-right: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 84px;
+  margin-right: 84px;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 ul {
-    display: flex;
-    gap: 41px;
+  display: flex;
+  gap: 41px;
 }
 
 ul li {
-    color: white;
-    font-size: 12px;
-    list-style: none;
+  color: white;
+  font-size: 12px;
+  list-style: none;
 }
 
 .contato {
-    display: flex;
-    gap: 38px;
+  display: flex;
+  gap: 38px;
 }
 
 .btn1 {
-    width: 154px;
-    height: 48px;
-    border-radius: 40px;
-    background-color: transparent;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    border: 1px solid white;
-    font-size: 12px;
-    cursor: pointer;
+  width: 154px;
+  height: 48px;
+  border-radius: 40px;
+  background-color: transparent;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid white;
+  font-size: 12px;
+  cursor: pointer;
 }
 
 .btn2 {
-    width: 154px;
-    height: 48px;
-    border-radius: 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-    color: #343045;
-    background: linear-gradient(90deg, #8176AF, #C0B7E8);
-    cursor: pointer;
+  width: 154px;
+  height: 48px;
+  border-radius: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: #343045;
+  background: linear-gradient(90deg, #8176af, #c0b7e8);
+  cursor: pointer;
 }
 
 .custom-drawer .MuiDrawer-paper {
-    width: 300px;
-    height:35%;
-    background: linear-gradient(90deg, #211E2E, #3A3456, #211E2E);
-    border-radius: 20px;
+  width: 300px;
+  height: 35%;
+  background: linear-gradient(90deg, #211e2e, #3a3456, #211e2e);
+  border-radius: 20px;
 }
 
 .menu {
-    display: none;
+  display: none;
 }
 
 @media (min-width: 900px) and (max-width: 1024px) {
-    .contato {
-        display: flex; 
-        flex-direction: column;
-        margin: 0 auto;
-        gap: 20px;
-    }
+  .contato {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 20px;
+  }
 }
 
-
 @media (min-width: 900px) and (max-width: 1940px) {
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    z-index: 1;
+  }
 
-    .menu {
-        display: flex; 
-        justify-content: space-between;
-        align-items: center;
-        gap: 30px;
-        z-index: 1;
-    }
+  .menu ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 0 auto;
+    width: 380px;
+  }
 
-    .menu ul {
-        display: flex;
-        justify-content: space-between;
-        gap: 40px;
-        margin: 0 auto;
-        width: 380px
-    }
-    
-    .contato {
-        display: flex; 
-        margin: 0 auto;
-        gap: 20px;
-    }
-
-
+  .contato {
+    display: flex;
+    margin: 0 auto;
+    margin-left: 50px;
+    gap: 20px;
+  }
 }
 
 @media (max-width: 768px) {
-    .nav {
-        margin-left: 20px; 
-        margin-right: 20px; 
-    }
-    .logo {
-        margin-left: 0; 
-    }
-
+  .nav {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .logo {
+    margin-left: 0;
+  }
 }

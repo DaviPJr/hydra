@@ -6,7 +6,7 @@ import vector8 from "../../Assets/Imagens/vector8.png";
 
 export const Outdoor = () => {
   return (
-    <div className="outdoor">
+    <div className="outdoor" id="outdoor">
       <img src={vector7} alt="" className="vector7" />
       <img src={vector8} alt="" className="vector8" />
       <div className="outdoor-img">

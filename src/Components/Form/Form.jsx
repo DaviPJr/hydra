@@ -55,7 +55,7 @@ export const Form = () => {
 
   return (
     <div className="form-parent">
-      <form className="form" onSubmit={handleSubmit}>
+      <form className="form" onSubmit={handleSubmit} id="form">
         <div className="form-title">
           <h1>JOIN HYDRA</h1>
           <hr />
