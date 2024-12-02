@@ -182,7 +182,7 @@ span {
   .form-input {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    width: 65%;
   }
 
   .form-input input {
@@ -190,7 +190,7 @@ span {
   }
 
   .form-input-text {
-    border: 1px solid red;
+    width: 65%;
   }
 
   .form-input-text textarea {
