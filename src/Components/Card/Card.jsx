@@ -1,5 +1,6 @@
 import React from "react";
 import "./Card.css";
+import { Link } from "react-scroll";
 import img1 from "../../Assets/Imagens/img1.png";
 import img2 from "../../Assets/Imagens/img2.png";
 import img3 from "../../Assets/Imagens/img3.png";
@@ -16,7 +17,9 @@ export const Card = (props) => {
           Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
           porttitor rhoncus libero justo laoreet sit amet vitae.
         </p>
-        <button>TRY IT NOW</button>
+        <Link to="form" smooth={true} duration={500}>
+          <button>TRY IT NOW</button>
+        </Link>
       </div>
       <div className="card">
         <img src={img2} alt="" />
@@ -26,7 +29,9 @@ export const Card = (props) => {
           Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
           porttitor rhoncus libero justo laoreet sit amet vitae.
         </p>
-        <button>TRY IT NOW</button>
+        <Link to="form" smooth={true} duration={500}>
+          <button>TRY IT NOW</button>
+        </Link>
       </div>
       <div className="card">
         <img src={img3} alt="" />
@@ -36,7 +41,9 @@ export const Card = (props) => {
           Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
           porttitor rhoncus libero justo laoreet sit amet vitae.
         </p>
-        <button>TRY IT NOW</button>
+        <Link to="form" smooth={true} duration={500}>
+          <button>TRY IT NOW</button>
+        </Link>
       </div>
       <div className="card">
         <img src={img4} alt="" />
@@ -46,7 +53,9 @@ export const Card = (props) => {
           Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
           porttitor rhoncus libero justo laoreet sit amet vitae.
         </p>
-        <button>TRY IT NOW</button>
+        <Link to="form" smooth={true} duration={500}>
+          <button>TRY IT NOW</button>
+        </Link>
       </div>
     </div>
   );

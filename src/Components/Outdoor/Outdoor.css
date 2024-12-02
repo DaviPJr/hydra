@@ -58,6 +58,10 @@
   transition: box-shadow 0.3s ease;
 }
 
+.outdoor-info button:hover {
+  transform: scale(1.1);
+}
+
 .vector7 {
   top: 40%;
   left: 0;

@@ -53,6 +53,10 @@ p {
   cursor: pointer;
 }
 
+.hero-btn button:hover {
+  transform: scale(1.1);
+}
+
 .hero-img {
   position: relative;
   display: inline-block;
