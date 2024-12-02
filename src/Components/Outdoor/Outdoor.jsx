@@ -30,9 +30,8 @@ export const Outdoor = () => {
           dapibus. Sem nulla pha retra diam sit amet nisl suscipit adipiscing
           bibendum. Leo a diam sollicitudi n tempor.
         </p>
-        <Link to="form" smooth={true} duration={500}>
-          <button>LET'S GET IN TOUCH</button>
-        </Link>
+
+        <button>LET'S GET IN TOUCH</button>
       </div>
     </div>
   );
