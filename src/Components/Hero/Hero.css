@@ -157,6 +157,7 @@ p {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
   }
 
   .hero-p {
@@ -169,5 +170,10 @@ p {
 
   .hero-p h1 {
     text-align: center;
+    font-size: 30px;
+  }
+
+  .hero-p span {
+    font-size: 30px;
   }
 }
