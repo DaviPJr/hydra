@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Drawer, IconButton, List, ListItem, Button, Box } from "@mui/material";
-import frame from "../../Assets/Imagens/frame.png";
+import frame from "../../Assets/Imagens/Frame.png";
 import frame2 from "../../Assets/Imagens/Frame2.png";
 import hamburguer from "../../Assets/Imagens/hamburguer.png";
 import { Link } from "react-scroll";
