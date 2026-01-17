@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
 import "./Outdoor.css";
 import maskGroup from "../../Assets/Imagens/maskgroup.png";
 import vector7 from "../../Assets/Imagens/vector7.png";
