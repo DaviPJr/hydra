@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Drawer, IconButton, List, ListItem, Button, Box } from "@mui/material";
-import frame from "../../Assets/Imagens/Frame.png";
+import frame from "../../Assets/Imagens/frame.png";
 import frame2 from "../../Assets/Imagens/Frame2.png";
 import hamburguer from "../../Assets/Imagens/hamburguer.png";
 import { Link } from "react-scroll";
@@ -26,21 +26,19 @@ export const Nav = () => {
         <img className="logo-p" src={frame2} alt="" />
       </div>
 
-      <IconButton
-        edge="end"
-        aria-label="menu"
-        onClick={toggleDrawer(true)}
-        sx={{
-          display: { sm: "block", md: "none" },
-          color: "#8176AF",
-          position: "absolute",
-          top: "89px",
-          right: "50px",
-          zIndex: 1,
-        }}
-      >
-        <img src={hamburguer} alt="" />
-      </IconButton>
+      '<IconButton
+          edge="end"
+          aria-label="menu"
+          onClick={toggleDrawer(true)}
+          sx={{
+            display: { xs: "block", md: "none" },
+            color: "#8176AF",
+            marginLeft: "auto",  
+          }}
+            >
+          <img src={hamburguer} alt="menu" />
+      </IconButton>'
+
       <div className="menu">
         <ul>
           <li>
